@@ -1,9 +1,11 @@
 // prng4.js - uses Arcfour as a PRNG
 
-function Arcfour() {
-  this.i = 0;
-  this.j = 0;
-  this.S = new Array();
+class Arcfour {
+  constructor() {
+    this.i = 0;
+    this.j = 0;
+    this.S = new Array();
+  }
 }
 
 // Initialize arcfour context from key, an array of ints, each from [0..255]
