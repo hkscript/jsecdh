@@ -1,0 +1,30 @@
+{
+  "name": "ecdh",
+  "version": "1.0.0",
+  "description": "ecdh(pure js)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& export NODE_ENV=development&& webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecdh"
+  ],
+  "author": "jyl",
+  "license": "ISC",
+  "sideEffects": [
+    "*.css"
+  ],
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+  }
+}
