@@ -1,6 +1,11 @@
 # jsecdh
 forked from username1565/ECDH and remanaged with webpack
 
+---
+cdn
+```
+https://cdn.jsdelivr.net/gh/hkscript/jsecdh@1.0/build/built.js
+```
 
 ```js
 var kp1=ecdh.genKeyPair("secp256r1")
