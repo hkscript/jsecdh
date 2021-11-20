@@ -2,11 +2,13 @@
 forked from username1565/ECDH and remanaged with webpack
 
 ---
-cdn
-```
+
+CDN
+```js
 https://cdn.jsdelivr.net/gh/hkscript/jsecdh@1.0/build/built.js
 ```
 
+Usage demo
 ```js
 var kp1=ecdh.genKeyPair("secp256r1")
 >{priKey: BigInteger, pubKeyHex: '04baeed07207914cb79be3629a38c659e41a4491db12a56fb2…0cd23de2c68b8dae829ecced479ebfa0d6a2364f8025fbb67', curveName: 'secp256r1'}
