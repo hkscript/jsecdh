@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "set NODE_ENV=development&& export NODE_ENV=development&& webpack-dev-server",
+    "build:dev": "set NODE_ENV=development&& export NODE_ENV=development&& webpack --config webpack.config.js",
     "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -68,6 +68,7 @@ module.exports = {
             secure: false,
         }
     },
+    devtool: 'source-map',
     // 模式
     mode: process.env.NODE_ENV
 }
